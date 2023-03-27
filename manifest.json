@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Codeanywhere IDE",
+    "description": "Helper for launching Codeanywhere.",
+    "version": "0.0.1",
+    "action": {
+        "default_title": "Codeanywhere IDE Helper"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "host_permissions": [
+        "*://*.github.com/*",
+        "*://github.com/*",
+        "*://*.codeanyapp.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://github.com/*",
+                "*://*.github.com/*",
+                "*://*.codeanyapp.com/*"
+            ],
+            "js": [
+                "js/content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "64": "images/icon48.png",
+        "128": "images/icon128.png"
+    }
+}
