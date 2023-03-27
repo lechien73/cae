@@ -14,7 +14,7 @@ Sometimes, after viewing a file, the button is not injected. To work around this
 
 Oh, ok. I'm sorry about that. Please <a href="https://github.com/lechien73/cae/issues" target="_blank">open an issue here on GitHub</a>, and I'll take a look. The code itself is very straightforward, so if you know what's wrong, feel free <a href="https://github.com/lechien73/cae/" target="_blank">fork the repo</a>, fix it and create a Pull Request.
 
-Please note that the extension is provided "as-is". No warranty or guarantee regarding suitability or compatibility is given. Use it at your own risk.
+Please note that the extension is provided "as-is". No warranty or guarantee regarding suitability or compatibility is given. Use it at your own risk. Also - very important - this is an *UNOFFICIAL* extension. This is not supplied by or affiliated with Codeanywhere, so please do not complain to them if it doesn't work. That's also why I'm not using the official Codeanywhere logo.
 
 ## How much data do you collect?
 
