@@ -18,6 +18,7 @@
         const root = document.getElementsByClassName("file-navigation")[0];
 
         const buttonContainer = root.appendChild(document.createElement("div"));
+        buttonContainer.setAttribute("class", "empty-icon position-relative ml-1 float-right");
 
         buttonContainer.innerHTML = `<a class='btn btn-primary' href='https://app.codeanywhere.com/#${currentWindow}' target='_blank'>Codeanywhere</a>`;
 

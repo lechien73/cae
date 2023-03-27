@@ -13,11 +13,6 @@
     "background": {
         "service_worker": "js/background.js"
     },
-    "host_permissions": [
-        "*://*.github.com/*",
-        "*://github.com/*",
-        "*://*.codeanyapp.com/*"
-    ],
     "content_scripts": [
         {
             "matches": [
