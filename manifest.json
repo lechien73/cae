@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Codeanywhere IDE",
     "description": "Helper for launching Codeanywhere.",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "action": {
         "default_title": "Codeanywhere IDE Helper"
     },
